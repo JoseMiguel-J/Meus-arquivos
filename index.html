@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="pt-PT">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="Portifólio do José Miguel, Técnico Electricista e Estudante de Informática">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - José Miguel</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <h1>Portifólio <span>JM</span></h1>
+        <button class="menu-toggle" id="menuToggle" aria-label="Abrir menu">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+        <nav id="navPrincipal">
+            <ul class="navegacao-primaria">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">Sobre</a></li>
+                <li><a href="#resume">Currículo</a></li>
+                <li><a href="#skills">Abilitações</a></li>
+                <li><a href="#portifolio">Portfolio</a></li>
+                <li><a href="#pricing">Serviços</a></li>
+                <li><a href="#contact">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- HOME -->
+    <section id="home" class="section-div">
+        <div>
+            <h2>Olá, eu sou o José Miguel</h2>
+            <h2 class="digitando"><span id="textoDigitando"></span><span class="cursor">|</span></h2>
+            <p>
+                Técnico Electricista e estudante de Informactica, frequentando o segundo ano, na UNISAVE e atualmente estudando programação web, pelo que agora, aprendo a construir os meus primeiros projectos
+                em desenvolvimento web.
+            </p>
+            <a href="cv/curriculo-jose-miguel.pdf" download class="botao">Download CV</a>
+        </div>
+        <img src="img/pessoa-ilustrativa.png" alt="Ilustração de uma pessoa a trabalhar">
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about" class="section-alt">
+        <img src="img/projecto3.jpg" alt="Foto de José Miguel" class="foto-perfil">
+        <div>
+            <h2>Sobre mim</h2>
+            <p>
+                Sou o José Miguel, Técnico Electricista formado no Instituto Industrial e Comercial 7 de
+                Setembro, com experiência de estágio na Electricidade de Moçambique (EDM). Ao longo do
+                tempo fui ganhando gosto pela informática e comecei a estudar programação por conta
+                própria, mexendo com HTML, CSS, Java, Haskell e Python.
+            </p>
+            <p>
+                Gosto de aprender fazendo: testar, errar e corrigir até perceber como as coisas funcionam.
+                Este portfolio é um desses projectos práticos, feito enquanto continuo a aprender a
+                desenvolver para a web.
+            </p>
+        </div>
+    </section>
+
+    <!-- RESUME -->
+    <section id="resume" class="section-div">
+        <div class="resume-coluna">
+            <h3>Formação</h3>
+            <div class="item-resume">
+                <h4>Técnico Electricista</h4>
+                <p class="periodo">Instituto Industrial e Comercial 7 de Setembro</p>
+            </div>
+            <div class="item-resume">
+                <h4>Estudos em Programação</h4>
+                <p class="periodo">Autodidacta — HTML, CSS, JavaScript, Java, Python, Haskell</p>
+            </div>
+        </div>
+        <div class="resume-coluna">
+            <h3>Experiência</h3>
+            <div class="item-resume">
+                <h4>Estágio - Técnico Electricista</h4>
+                <p class="periodo">Electricidade de Moçambique (EDM)</p>
+                <p>Apoio em tarefas técnicas na área eléctrica durante o período de estágio.</p>
+            </div>
+        </div>
+        <a href="cv/curriculo-jose-miguel.pdf" download class="botao botao-resume">Download CV completo</a>
+    </section>
+
+    <!-- ABILITAÇÕES -->
+    <section id="skills" class="section-alt">
+        <h2>Habilitações</h2>
+        <div class="grade-skills">
+            <div class="skill-card">
+                <div class="skill-header">
+                    <i class="fab fa-html5"></i>
+                    <h3>HTML</h3>
+                </div>
+                <div class="skill-bar">
+                    <div class="skill-progress" style="width: 70%"></div>
+                </div>
+                <p class="skill-nivel">Intermédio</p>
+            </div>
+            <div class="skill-card">
+                <div class="skill-header">
+                    <i class="fab fa-css3-alt"></i>
+                    <h3>CSS</h3>
+                </div>
+                <div class="skill-bar">
+                    <div class="skill-progress" style="width: 65%"></div>
+                </div>
+                <p class="skill-nivel">Intermédio</p>
+            </div>
+            <div class="skill-card">
+                <div class="skill-header">
+                    <i class="fab fa-js-square"></i>
+                    <h3>JavaScript</h3>
+                </div>
+                <div class="skill-bar">
+                    <div class="skill-progress" style="width: 57%"></div>
+                </div>
+                <p class="skill-nivel">Intermédio</p>
+            </div>
+            <div class="skill-card">
+                <div class="skill-header">
+                    <i class="fab fa-python"></i>
+                    <h3>Python</h3>
+                </div>
+                <div class="skill-bar">
+                    <div class="skill-progress" style="width: 70%"></div>
+                </div>
+                <p class="skill-nivel">Intermédio</p>
+            </div>
+            <div class="skill-card">
+                <div class="skill-header">
+                    <i class="fas fa-hammer"></i>
+                    <h3>Haskell</h3>
+                </div>
+                <div class="skill-bar">
+                    <div class="skill-progress" style="width: 40%"></div>
+                </div>
+                <p class="skill-nivel">Básico</p>
+            </div>
+            <div class="skill-card">
+                <div class="skill-header">
+                    <i class="fas fa-bolt"></i>
+                    <h3>Electricidade</h3>
+                </div>
+                <div class="skill-bar">
+                    <div class="skill-progress" style="width: 85%"></div>
+                </div>
+                <p class="skill-nivel">Avançado</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- PORTFÓLIO -->
+    <section id="portifolio" class="section-alt">
+        <h2>Portfolio</h2>
+        <div class="filtros-portfolio">
+            <button class="botao-filtro ativo" data-filtro="todos">Todos</button>
+            <button class="botao-filtro" data-filtro="electricidade">⚡ Electricidade</button>
+            <button class="botao-filtro" data-filtro="programacao">💻 Programação</button>
+        </div>
+        <div class="grade-projectos">
+            <div class="card-projecto" data-categoria="electricidade">
+                <img src="img/projecto1.jpg" alt="Print do projecto 1">
+                <span class="badge-categoria">⚡ Electricidade</span>
+                <h4>Manutenção de um posto de Transformação</h4>
+                <p>O trabalho consistia em resolver as falhas em que o posto de transformação continha, pois não demandava corrente suficiente para todas as casas a ele conectado</p>
+            </div>
+            <div class="card-projecto" data-categoria="electricidade">
+                <img src="img/projecto2.jpg" alt="Print do projecto 2">
+                <span class="badge-categoria">💻 Programação</span>
+                <h4>Manutenção Preventiva num PT (Posto de Transformação)</h4>
+                <p>Breve descrição do que o projecto faz e das tecnologias usadas.</p>
+            </div>
+            <div class="card-projecto" data-categoria="programacao">
+                <img src="img/projecto3.jpg" alt="Print do projecto 3">
+                <span class="badge-categoria">💻 Programação</span>
+                <h4>Nome do projecto 3</h4>
+                <p>No âmbito do estágio proficional na EDM, pude adiquirir vários conhecimentos práticos, relacionados aos postos de transformação que me virão a ser muito úteis na minha nos meus trabalhos, com só como programador, assim como criador ou instalador de redes de computador em qualquer que seja a instituição, isto é, seja pequema, média ou grande empresa.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- PRICING / SERVICES -->
+    <section id="pricing" class="section-div">
+        <h2>Serviços</h2>
+        <div class="grade-precos">
+            <div class="card-preco">
+                <h4>Página simples</h4>
+                <p class="preco">Sob consulta</p>
+                <p>Site de uma página, com secções básicas e formulário de contacto.</p>
+            </div>
+            <div class="card-preco">
+                <h4>Site completo</h4>
+                <p class="preco">Sob consulta</p>
+                <p>Várias páginas, layout responsivo e ajustes conforme o pedido.</p>
+            </div>
+            <div class="card-preco">
+                <h4>Manutenção</h4>
+                <p class="preco">Sob consulta</p>
+                <p>Correcções, actualizações de conteúdo e pequenos ajustes.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="section-alt">
+        <h2>Contacte-nos</h2>
+        <form id="formContacto" class="formulario-contacto">
+            <label for="nome">Nome</label>
+            <input type="text" id="nome" name="nome" required>
+
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="mensagem">Mensagem</label>
+            <textarea id="mensagem" name="mensagem" rows="5" required></textarea>
+
+            <button type="submit" class="botao">Enviar mensagem</button>
+            <p id="mensagemEnviada" class="mensagem-sucesso"></p>
+        </form>
+        
+        <div class="botoes-contato">
+            <a href="https://wa.me/258875623848?text=Olá, vi o vosso site e gostaria de mais informações." target="_blank" class="botao-contato botao-contato-whatsapp" aria-label="Contactar via WhatsApp">
+                <i class="fab fa-whatsapp"></i>
+                <span>WhatsApp</span>
+            </a>
+            <a href="mailto:jomigueldimande3@gmail.com?subject=Contacto via site" class="botao-contato botao-contato-email" aria-label="Contactar via Email">
+                <i class="fas fa-envelope"></i>
+                <span>Gmail</span>
+            </a>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; <span id="anoActual"></span> José Miguel. Todos os direitos reservados.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

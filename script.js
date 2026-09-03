@@ -62,6 +62,7 @@ if (elementoTexto) {
 // ===================================================
 const botoesFiltr = document.querySelectorAll('.botao-filtro');
 const cardsProjecto = document.querySelectorAll('.card-projecto');
+const cardsServicos = document.querySelectorAll('.card-preco');
 
 botoesFiltr.forEach(botao => {
     botao.addEventListener('click', () => {
@@ -84,6 +85,18 @@ botoesFiltr.forEach(botao => {
                 card.classList.add('oculto');
             }
         });
+
+        cardsServicos.forEach(card => {
+            const eServicoElectricidade = card.classList.contains('card-servico-electricidade');
+            const mostrarServico = filtro === 'electricidade'
+                ? eServicoElectricidade
+                : !eServicoElectricidade;
+            card.classList.toggle('oculto', !mostrarServico);
+        });
+
+        if (filtro === 'electricidade') {
+            document.getElementById('pricing').scrollIntoView({ behavior: 'smooth' });
+        }
     });
 });
 

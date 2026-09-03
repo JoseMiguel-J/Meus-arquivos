@@ -383,6 +383,10 @@ header .navegacao-primaria li a:hover {
     display: none;
 }
 
+.card-servico-electricidade.oculto {
+    display: none;
+}
+
 /* PRICING */
 
 .grade-precos {
